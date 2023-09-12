@@ -1,5 +1,6 @@
 const express = require("express");
 const posts = require("../usecases/posts.usecase");
+const auth = require("../middlewares/auth.middleware")
 const router = express.Router();
 
 
